@@ -1,0 +1,377 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Pratim",
+      "user_id": "Pratim2",
+      "email": "pratim2@gmail.com",
+      "address": "cg",
+      "password": "$2a$10$P4Uih.pliFwgz/.APCyxu.fFWwMSgm1lH/NOsPlrHcJY6Hd4zKmwq",
+      "role": "user",
+      "created_at": "2026-08-15T14:57:21.003Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "JavaScript Fundamentals",
+      "category": "Programming",
+      "description": "Learn the core building blocks of JavaScript: variables, functions, arrays, objects, and control flow — with hands-on examples.",
+      "price": 29.99,
+      "banner_url": "/uploads/1786817392333-721243854.png",
+      "created_at": "2026-08-15T14:53:35.035Z"
+    },
+    {
+      "id": 2,
+      "title": "React for Beginners",
+      "category": "Programming",
+      "description": "Build interactive user interfaces with React: components, props, state, and hooks explained from scratch.",
+      "price": 39.99,
+      "banner_url": "",
+      "created_at": "2026-08-15T14:53:35.036Z"
+    },
+    {
+      "id": 3,
+      "title": "Digital Marketing Essentials",
+      "category": "Marketing",
+      "description": "A practical introduction to SEO, social media marketing, email campaigns, and analytics for beginners.",
+      "price": 24.99,
+      "banner_url": "",
+      "created_at": "2026-08-15T14:53:35.036Z"
+    }
+  ],
+  "course_modules": [
+    {
+      "id": 8,
+      "course_id": 2,
+      "type": "video",
+      "title": "Introduction to Components",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 0
+    },
+    {
+      "id": 9,
+      "course_id": 2,
+      "type": "video",
+      "title": "Props & State",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 1
+    },
+    {
+      "id": 10,
+      "course_id": 2,
+      "type": "video",
+      "title": "Handling Events",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 2
+    },
+    {
+      "id": 11,
+      "course_id": 2,
+      "type": "video",
+      "title": "useEffect & Side Effects",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 3
+    },
+    {
+      "id": 12,
+      "course_id": 2,
+      "type": "video",
+      "title": "Building a Small App",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 4
+    },
+    {
+      "id": 13,
+      "course_id": 2,
+      "type": "quiz",
+      "title": "Quiz 1: Components",
+      "youtube_url": null,
+      "question": "What do you call reusable pieces of UI in React?",
+      "options": [
+        "Modules",
+        "Components",
+        "Templates",
+        "Widgets"
+      ],
+      "correct_answer": 1,
+      "order_index": 5
+    },
+    {
+      "id": 14,
+      "course_id": 2,
+      "type": "quiz",
+      "title": "Quiz 2: State",
+      "youtube_url": null,
+      "question": "Which hook lets you add state to a function component?",
+      "options": [
+        "useRef",
+        "useMemo",
+        "useState",
+        "useContext"
+      ],
+      "correct_answer": 2,
+      "order_index": 6
+    },
+    {
+      "id": 15,
+      "course_id": 3,
+      "type": "video",
+      "title": "Intro to Digital Marketing",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 0
+    },
+    {
+      "id": 16,
+      "course_id": 3,
+      "type": "video",
+      "title": "SEO Basics",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 1
+    },
+    {
+      "id": 17,
+      "course_id": 3,
+      "type": "video",
+      "title": "Social Media Strategy",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 2
+    },
+    {
+      "id": 18,
+      "course_id": 3,
+      "type": "video",
+      "title": "Email Marketing",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 3
+    },
+    {
+      "id": 19,
+      "course_id": 3,
+      "type": "video",
+      "title": "Analytics & KPIs",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 4
+    },
+    {
+      "id": 20,
+      "course_id": 3,
+      "type": "quiz",
+      "title": "Quiz 1: SEO",
+      "youtube_url": null,
+      "question": "What does SEO stand for?",
+      "options": [
+        "Search Engine Optimization",
+        "Site Element Ordering",
+        "Social Engagement Outreach",
+        "Search Efficiency Output"
+      ],
+      "correct_answer": 0,
+      "order_index": 5
+    },
+    {
+      "id": 21,
+      "course_id": 3,
+      "type": "quiz",
+      "title": "Quiz 2: Analytics",
+      "youtube_url": null,
+      "question": "Which metric measures the percentage of visitors who leave after one page?",
+      "options": [
+        "CTR",
+        "Bounce rate",
+        "Conversion rate",
+        "Impressions"
+      ],
+      "correct_answer": 1,
+      "order_index": 6
+    },
+    {
+      "id": 22,
+      "course_id": 1,
+      "type": "video",
+      "title": "Variables & Data Types",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 0
+    },
+    {
+      "id": 23,
+      "course_id": 1,
+      "type": "video",
+      "title": "Functions & Scope",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 1
+    },
+    {
+      "id": 24,
+      "course_id": 1,
+      "type": "video",
+      "title": "Arrays & Objects",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 2
+    },
+    {
+      "id": 25,
+      "course_id": 1,
+      "type": "video",
+      "title": "Control Flow & Loops",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 3
+    },
+    {
+      "id": 26,
+      "course_id": 1,
+      "type": "video",
+      "title": "DOM Basics",
+      "youtube_url": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "question": null,
+      "options": null,
+      "correct_answer": null,
+      "order_index": 4
+    },
+    {
+      "id": 27,
+      "course_id": 1,
+      "type": "quiz",
+      "title": "Quiz 1: Basics",
+      "youtube_url": null,
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "function",
+        "global"
+      ],
+      "correct_answer": 1,
+      "order_index": 5
+    },
+    {
+      "id": 28,
+      "course_id": 1,
+      "type": "quiz",
+      "title": "Quiz 2: Functions",
+      "youtube_url": null,
+      "question": "What does a function without a return statement return?",
+      "options": [
+        "null",
+        "0",
+        "undefined",
+        "NaN"
+      ],
+      "correct_answer": 2,
+      "order_index": 6
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "course_id": 2,
+      "completed_videos": [
+        8,
+        12,
+        11,
+        10,
+        9
+      ],
+      "enrolled_at": "2026-08-15T15:13:25.945Z"
+    }
+  ],
+  "quiz_results": [
+    {
+      "id": 4,
+      "enrollment_id": 1,
+      "module_id": 13,
+      "selected_option": 1,
+      "is_correct": true,
+      "submitted_at": "2026-08-15T15:14:28.689Z"
+    },
+    {
+      "id": 5,
+      "enrollment_id": 1,
+      "module_id": 14,
+      "selected_option": 2,
+      "is_correct": true,
+      "submitted_at": "2026-08-15T18:53:03.839Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "course_id": 2,
+      "amount": 39.99,
+      "status": "success",
+      "created_at": "2026-08-15T15:13:25.945Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "enrollment_id": 1,
+      "user_id": 1,
+      "course_id": 2,
+      "issued_at": "2026-08-15T18:53:14.658Z"
+    }
+  ],
+  "contact_messages": [],
+  "site_content": {
+    "about": "LearnTrack is an online learning platform helping students build real, job-ready skills through short, focused video courses and hands-on quizzes.",
+    "contact": {
+      "email": "support@learntrack.dev",
+      "phone": "+1 (555) 010-1234",
+      "address": "123 Learning Ave, Remote City"
+    }
+  },
+  "_seq": {
+    "users": 1,
+    "courses": 3,
+    "course_modules": 28,
+    "enrollments": 1,
+    "quiz_results": 5,
+    "payments": 1,
+    "certificates": 1,
+    "contact_messages": 0
+  }
+}
